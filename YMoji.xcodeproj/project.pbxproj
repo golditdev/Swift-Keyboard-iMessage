@@ -1,0 +1,1299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021C3F5E1F5BEE1C0003825D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C3F5D1F5BEE1C0003825D /* AppDelegate.swift */; };
+		021C3F601F5BEE1C0003825D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C3F5F1F5BEE1C0003825D /* ViewController.swift */; };
+		021C3F631F5BEE1C0003825D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021C3F611F5BEE1C0003825D /* Main.storyboard */; };
+		021C3F651F5BEE1C0003825D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021C3F641F5BEE1C0003825D /* Assets.xcassets */; };
+		021C3F681F5BEE1C0003825D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021C3F661F5BEE1C0003825D /* LaunchScreen.storyboard */; };
+		0245F6931F5C02E2007E37AB /* minion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F67E1F5C02E2007E37AB /* minion1.png */; };
+		0245F6941F5C02E2007E37AB /* minion2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F67F1F5C02E2007E37AB /* minion2.png */; };
+		0245F6951F5C02E2007E37AB /* minion3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6801F5C02E2007E37AB /* minion3.png */; };
+		0245F6961F5C02E2007E37AB /* minion4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6811F5C02E2007E37AB /* minion4.png */; };
+		0245F6971F5C02E2007E37AB /* minion5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6821F5C02E2007E37AB /* minion5.gif */; };
+		0245F6981F5C02E2007E37AB /* minion6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6831F5C02E2007E37AB /* minion6.png */; };
+		0245F6991F5C02E2007E37AB /* minion7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6841F5C02E2007E37AB /* minion7.png */; };
+		0245F69A1F5C02E2007E37AB /* minion8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6851F5C02E2007E37AB /* minion8.png */; };
+		0245F69B1F5C02E2007E37AB /* minion9.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6861F5C02E2007E37AB /* minion9.gif */; };
+		0245F69C1F5C02E2007E37AB /* minion10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6871F5C02E2007E37AB /* minion10.png */; };
+		0245F69E1F5C02E2007E37AB /* minion12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6891F5C02E2007E37AB /* minion12.png */; };
+		0245F69F1F5C02E2007E37AB /* minion13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68A1F5C02E2007E37AB /* minion13.png */; };
+		0245F6A01F5C02E2007E37AB /* minion14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68B1F5C02E2007E37AB /* minion14.gif */; };
+		0245F6A11F5C02E2007E37AB /* minion15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68C1F5C02E2007E37AB /* minion15.png */; };
+		0245F6A21F5C02E2007E37AB /* minion16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68D1F5C02E2007E37AB /* minion16.png */; };
+		0245F6A31F5C02E2007E37AB /* minion17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68E1F5C02E2007E37AB /* minion17.png */; };
+		0245F6A51F5C02E2007E37AB /* minion11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6901F5C02E2007E37AB /* minion11.png */; };
+		0245F6A61F5C02E2007E37AB /* minion0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6911F5C02E2007E37AB /* minion0.png */; };
+		0245F6AB1F5C0788007E37AB /* ic_recent.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6A91F5C0788007E37AB /* ic_recent.png */; };
+		0245F6AC1F5C0788007E37AB /* ic_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6AA1F5C0788007E37AB /* ic_settings.png */; };
+		0245F6AF1F5C1269007E37AB /* YMojiCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6AE1F5C1269007E37AB /* YMojiCollectionViewLayout.swift */; };
+		0245F6B21F5C135E007E37AB /* YMojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6B01F5C135E007E37AB /* YMojiCollectionViewCell.swift */; };
+		0245F6B31F5C135E007E37AB /* YMojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6B11F5C135E007E37AB /* YMojiCollectionViewCell.xib */; };
+		0245F6B51F5C13F1007E37AB /* ic_play_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6B41F5C13F1007E37AB /* ic_play_video.png */; };
+		0245F6B91F5C1AB1007E37AB /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6B81F5C1AB1007E37AB /* UIImage+animatedGIF.m */; };
+		0245F6BB1F5C2021007E37AB /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6BA1F5C2021007E37AB /* RecentViewController.swift */; };
+		0245F6BE1F5C20ED007E37AB /* ic_close_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6BC1F5C20ED007E37AB /* ic_close_blue.png */; };
+		0245F6BF1F5C20ED007E37AB /* ic_close_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6BD1F5C20ED007E37AB /* ic_close_white.png */; };
+		0245F6C11F5C210F007E37AB /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6C01F5C210F007E37AB /* ShareViewController.swift */; };
+		0245F6C31F5C2122007E37AB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6C21F5C2122007E37AB /* SettingsViewController.swift */; };
+		028AE1AD1F6183B1000B1DA9 /* ic_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1A71F6183B0000B1DA9 /* ic_contact.png */; };
+		028AE1AE1F6183B1000B1DA9 /* ic_follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1A81F6183B1000B1DA9 /* ic_follow.png */; };
+		028AE1AF1F6183B1000B1DA9 /* ic_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1A91F6183B1000B1DA9 /* ic_phone.png */; };
+		028AE1B01F6183B1000B1DA9 /* ic_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1AA1F6183B1000B1DA9 /* ic_privacy.png */; };
+		028AE1B11F6183B1000B1DA9 /* ic_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1AB1F6183B1000B1DA9 /* ic_rate.png */; };
+		028AE1B21F6183B1000B1DA9 /* ic_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1AC1F6183B1000B1DA9 /* ic_share@2x.png */; };
+		028AE1BA1F619110000B1DA9 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028AE1B91F619110000B1DA9 /* KeyboardViewController.swift */; };
+		028AE1BE1F619110000B1DA9 /* YMojiKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 028AE1B71F619110000B1DA9 /* YMojiKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		028AE2261F619920000B1DA9 /* 123orReturnKey_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1C41F61991C000B1DA9 /* 123orReturnKey_normal.png */; };
+		028AE2281F619931000B1DA9 /* 123orReturnKey_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1C51F61991C000B1DA9 /* 123orReturnKey_pressed.png */; };
+		028AE2291F619931000B1DA9 /* Back_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1C61F61991C000B1DA9 /* Back_normal.png */; };
+		028AE22A1F619931000B1DA9 /* Back_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1C71F61991C000B1DA9 /* Back_pressed.png */; };
+		028AE22B1F619931000B1DA9 /* Boards_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1C81F61991C000B1DA9 /* Boards_normal.png */; };
+		028AE22C1F619931000B1DA9 /* Boards_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1C91F61991C000B1DA9 /* Boards_pressed.png */; };
+		028AE22D1F619931000B1DA9 /* BoardsTableCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1CA1F61991C000B1DA9 /* BoardsTableCellBackground.png */; };
+		028AE22E1F619931000B1DA9 /* DeleteKey_normal_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1CB1F61991C000B1DA9 /* DeleteKey_normal_Land.png */; };
+		028AE22F1F619931000B1DA9 /* DeleteKey_normal_Port.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1CC1F61991C000B1DA9 /* DeleteKey_normal_Port.png */; };
+		028AE2301F619931000B1DA9 /* DeleteKey_pressed_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1CD1F61991C000B1DA9 /* DeleteKey_pressed_Land.png */; };
+		028AE2311F619931000B1DA9 /* DeleteKey_pressed_Port.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1CE1F61991C000B1DA9 /* DeleteKey_pressed_Port.png */; };
+		028AE2321F619931000B1DA9 /* DeletePin_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1CF1F61991C000B1DA9 /* DeletePin_normal.png */; };
+		028AE2331F619931000B1DA9 /* DeletePin_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D01F61991C000B1DA9 /* DeletePin_pressed.png */; };
+		028AE2341F619931000B1DA9 /* divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D11F61991C000B1DA9 /* divider.png */; };
+		028AE2351F619931000B1DA9 /* divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D21F61991C000B1DA9 /* divider@2x.png */; };
+		028AE2361F619931000B1DA9 /* divider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D31F61991C000B1DA9 /* divider@3x.png */; };
+		028AE2371F619931000B1DA9 /* DoubleShiftKey_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D41F61991C000B1DA9 /* DoubleShiftKey_Land.png */; };
+		028AE2381F619931000B1DA9 /* DoubleShiftKey_Port.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D51F61991C000B1DA9 /* DoubleShiftKey_Port.png */; };
+		028AE2391F619931000B1DA9 /* ic_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D61F61991C000B1DA9 /* ic_camera.png */; };
+		028AE23A1F619931000B1DA9 /* ic_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D71F61991C000B1DA9 /* ic_camera@2x.png */; };
+		028AE23B1F619931000B1DA9 /* ic_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D81F61991C000B1DA9 /* ic_camera@3x.png */; };
+		028AE23C1F619931000B1DA9 /* ic_mic.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1D91F61991C000B1DA9 /* ic_mic.png */; };
+		028AE23D1F619931000B1DA9 /* ic_mic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1DA1F61991C000B1DA9 /* ic_mic@2x.png */; };
+		028AE23E1F619931000B1DA9 /* ic_mic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1DB1F61991C000B1DA9 /* ic_mic@3x.png */; };
+		028AE23F1F619931000B1DA9 /* ic_upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1DC1F61991C000B1DA9 /* ic_upload.png */; };
+		028AE2401F619931000B1DA9 /* ic_upload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1DD1F61991C000B1DA9 /* ic_upload@2x.png */; };
+		028AE2411F619931000B1DA9 /* ic_upload@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1DE1F61991C000B1DA9 /* ic_upload@3x.png */; };
+		028AE2421F619931000B1DA9 /* Key_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1DF1F61991C000B1DA9 /* Key_normal.png */; };
+		028AE2431F619931000B1DA9 /* Key_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E01F61991C000B1DA9 /* Key_pressed.png */; };
+		028AE2441F619931000B1DA9 /* Keyboard_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E11F61991C000B1DA9 /* Keyboard_normal.png */; };
+		028AE2451F619931000B1DA9 /* Keyboard_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E21F61991C000B1DA9 /* Keyboard_pressed.png */; };
+		028AE2461F619931000B1DA9 /* Likes_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E31F61991C000B1DA9 /* Likes_normal.png */; };
+		028AE2471F619931000B1DA9 /* Likes_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E41F61991C000B1DA9 /* Likes_pressed.png */; };
+		028AE2481F619931000B1DA9 /* OtherKeyboard_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E51F61991C000B1DA9 /* OtherKeyboard_dark.png */; };
+		028AE2491F619931000B1DA9 /* OtherKeyboard_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E61F61991C000B1DA9 /* OtherKeyboard_normal.png */; };
+		028AE24A1F619931000B1DA9 /* OtherKeyboard_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E71F61991C000B1DA9 /* OtherKeyboard_pressed.png */; };
+		028AE24B1F619931000B1DA9 /* PlaceHolderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E81F61991C000B1DA9 /* PlaceHolderImage.png */; };
+		028AE24C1F619931000B1DA9 /* Recent_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1E91F61991C000B1DA9 /* Recent_normal.png */; };
+		028AE24D1F619931000B1DA9 /* Recent_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1EA1F61991C000B1DA9 /* Recent_pressed.png */; };
+		028AE24E1F619931000B1DA9 /* Share_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1EB1F61991C000B1DA9 /* Share_normal.png */; };
+		028AE24F1F619931000B1DA9 /* Share_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1EC1F61991C000B1DA9 /* Share_pressed.png */; };
+		028AE2501F619931000B1DA9 /* ShiftKey_normal_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1ED1F61991C000B1DA9 /* ShiftKey_normal_Land.png */; };
+		028AE2511F619931000B1DA9 /* ShiftKey_normal_Port.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1EE1F61991C000B1DA9 /* ShiftKey_normal_Port.png */; };
+		028AE2521F619931000B1DA9 /* ShiftKey_pressed_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1EF1F61991C000B1DA9 /* ShiftKey_pressed_Land.png */; };
+		028AE2531F619931000B1DA9 /* ShiftKey_pressed_Port.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1F01F61991C000B1DA9 /* ShiftKey_pressed_Port.png */; };
+		028AE2541F619931000B1DA9 /* SpaceKey_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1F11F61991C000B1DA9 /* SpaceKey_normal.png */; };
+		028AE2551F619931000B1DA9 /* SpaceKey_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1F21F61991C000B1DA9 /* SpaceKey_pressed.png */; };
+		028AE2561F619931000B1DA9 /* ymoji_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1F31F61991C000B1DA9 /* ymoji_highlight.png */; };
+		028AE2571F619931000B1DA9 /* ymoji_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 028AE1F41F61991C000B1DA9 /* ymoji_normal.png */; };
+		028AE29D1F631C61000B1DA9 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 028AE29C1F631C61000B1DA9 /* UIImage+animatedGIF.m */; };
+		028AE29F1F631C86000B1DA9 /* YMojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6B01F5C135E007E37AB /* YMojiCollectionViewCell.swift */; };
+		028AE2A01F631C8D000B1DA9 /* YMojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6B11F5C135E007E37AB /* YMojiCollectionViewCell.xib */; };
+		028AE2A11F631D6B000B1DA9 /* minion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F67E1F5C02E2007E37AB /* minion1.png */; };
+		028AE2A21F631D6B000B1DA9 /* minion2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F67F1F5C02E2007E37AB /* minion2.png */; };
+		028AE2A31F631D6B000B1DA9 /* minion3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6801F5C02E2007E37AB /* minion3.png */; };
+		028AE2A41F631D6B000B1DA9 /* minion4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6811F5C02E2007E37AB /* minion4.png */; };
+		028AE2A51F631D6B000B1DA9 /* minion5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6821F5C02E2007E37AB /* minion5.gif */; };
+		028AE2A61F631D6B000B1DA9 /* minion6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6831F5C02E2007E37AB /* minion6.png */; };
+		028AE2A71F631D6B000B1DA9 /* minion7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6841F5C02E2007E37AB /* minion7.png */; };
+		028AE2A81F631D6B000B1DA9 /* minion8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6851F5C02E2007E37AB /* minion8.png */; };
+		028AE2A91F631D6B000B1DA9 /* minion9.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6861F5C02E2007E37AB /* minion9.gif */; };
+		028AE2AA1F631D6B000B1DA9 /* minion10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6871F5C02E2007E37AB /* minion10.png */; };
+		028AE2AC1F631D6B000B1DA9 /* minion12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6891F5C02E2007E37AB /* minion12.png */; };
+		028AE2AD1F631D6B000B1DA9 /* minion13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68A1F5C02E2007E37AB /* minion13.png */; };
+		028AE2AE1F631D6B000B1DA9 /* minion14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68B1F5C02E2007E37AB /* minion14.gif */; };
+		028AE2AF1F631D6B000B1DA9 /* minion15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68C1F5C02E2007E37AB /* minion15.png */; };
+		028AE2B01F631D6B000B1DA9 /* minion16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68D1F5C02E2007E37AB /* minion16.png */; };
+		028AE2B11F631D6B000B1DA9 /* minion17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68E1F5C02E2007E37AB /* minion17.png */; };
+		028AE2B31F631D6B000B1DA9 /* minion11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6901F5C02E2007E37AB /* minion11.png */; };
+		028AE2B41F631D6B000B1DA9 /* minion0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6911F5C02E2007E37AB /* minion0.png */; };
+		028AE2B71F631E6D000B1DA9 /* YMojiKeyboardCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028AE2B61F631E6D000B1DA9 /* YMojiKeyboardCollectionViewLayout.swift */; };
+		028AE2BA1F632029000B1DA9 /* keyPopImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 028AE2B91F632029000B1DA9 /* keyPopImage.m */; };
+		028AE2BB1F6327C1000B1DA9 /* ic_play_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6B41F5C13F1007E37AB /* ic_play_video.png */; };
+		028AE2C31F63287D000B1DA9 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028AE2C21F63287D000B1DA9 /* Messages.framework */; };
+		028AE2C61F63287D000B1DA9 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028AE2C51F63287D000B1DA9 /* MessagesViewController.swift */; };
+		028AE2C91F63287D000B1DA9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028AE2C71F63287D000B1DA9 /* MainInterface.storyboard */; };
+		028AE2CB1F63287D000B1DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028AE2CA1F63287D000B1DA9 /* Assets.xcassets */; };
+		028AE2CF1F63287D000B1DA9 /* YMojiMessage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 028AE2C01F63287D000B1DA9 /* YMojiMessage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		028AE2D31F6328BD000B1DA9 /* minion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F67E1F5C02E2007E37AB /* minion1.png */; };
+		028AE2D41F6328BD000B1DA9 /* minion2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F67F1F5C02E2007E37AB /* minion2.png */; };
+		028AE2D51F6328BD000B1DA9 /* minion3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6801F5C02E2007E37AB /* minion3.png */; };
+		028AE2D61F6328BD000B1DA9 /* minion4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6811F5C02E2007E37AB /* minion4.png */; };
+		028AE2D71F6328BD000B1DA9 /* minion5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6821F5C02E2007E37AB /* minion5.gif */; };
+		028AE2D81F6328BD000B1DA9 /* minion6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6831F5C02E2007E37AB /* minion6.png */; };
+		028AE2D91F6328BD000B1DA9 /* minion7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6841F5C02E2007E37AB /* minion7.png */; };
+		028AE2DA1F6328BD000B1DA9 /* minion8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6851F5C02E2007E37AB /* minion8.png */; };
+		028AE2DB1F6328BD000B1DA9 /* minion9.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6861F5C02E2007E37AB /* minion9.gif */; };
+		028AE2DC1F6328BD000B1DA9 /* minion10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6871F5C02E2007E37AB /* minion10.png */; };
+		028AE2DE1F6328BD000B1DA9 /* minion12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6891F5C02E2007E37AB /* minion12.png */; };
+		028AE2DF1F6328BD000B1DA9 /* minion13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68A1F5C02E2007E37AB /* minion13.png */; };
+		028AE2E01F6328BD000B1DA9 /* minion14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68B1F5C02E2007E37AB /* minion14.gif */; };
+		028AE2E11F6328BD000B1DA9 /* minion15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68C1F5C02E2007E37AB /* minion15.png */; };
+		028AE2E21F6328BD000B1DA9 /* minion16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68D1F5C02E2007E37AB /* minion16.png */; };
+		028AE2E31F6328BD000B1DA9 /* minion17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F68E1F5C02E2007E37AB /* minion17.png */; };
+		028AE2E51F6328BD000B1DA9 /* minion11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6901F5C02E2007E37AB /* minion11.png */; };
+		028AE2E61F6328BD000B1DA9 /* minion0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6911F5C02E2007E37AB /* minion0.png */; };
+		028AE2E81F6328CD000B1DA9 /* ic_play_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6B41F5C13F1007E37AB /* ic_play_video.png */; };
+		028AE2F01F632A10000B1DA9 /* SingleHandGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 028AE2EC1F632A10000B1DA9 /* SingleHandGestureRecognizer.m */; };
+		028AE2F11F632A10000B1DA9 /* StickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 028AE2ED1F632A10000B1DA9 /* StickerView.bundle */; };
+		028AE2F21F632A10000B1DA9 /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 028AE2EF1F632A10000B1DA9 /* StickerView.m */; };
+		028AE2F31F632A4F000B1DA9 /* YMojiCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6AE1F5C1269007E37AB /* YMojiCollectionViewLayout.swift */; };
+		028AE2F61F632A86000B1DA9 /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028AE2F41F632A86000B1DA9 /* StickerCollectionViewCell.swift */; };
+		028AE2F71F632A86000B1DA9 /* StickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028AE2F51F632A86000B1DA9 /* StickerCollectionViewCell.xib */; };
+		028AE2FA1F632D28000B1DA9 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 028AE2F91F632D28000B1DA9 /* UIImage+animatedGIF.m */; };
+		028AE2FB1F632FEA000B1DA9 /* YMojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0245F6B11F5C135E007E37AB /* YMojiCollectionViewCell.xib */; };
+		028AE2FC1F632FEE000B1DA9 /* YMojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245F6B01F5C135E007E37AB /* YMojiCollectionViewCell.swift */; };
+		5CD2AA66B24DFF9533018A5C /* Pods_YMojiKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639A212768FBE43B5C404276 /* Pods_YMojiKeyboard.framework */; };
+		952F44088CD244DD1F600F46 /* Pods_YMoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9263019936128358FC1021 /* Pods_YMoji.framework */; };
+		9C1278C9D7BEDB9E786B41AA /* Pods_YMojiMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1445B150B6F772E77CA97C /* Pods_YMojiMessage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028AE1BC1F619110000B1DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021C3F521F5BEE1C0003825D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028AE1B61F619110000B1DA9;
+			remoteInfo = YMojiKeyboard;
+		};
+		028AE2CD1F63287D000B1DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021C3F521F5BEE1C0003825D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028AE2BF1F63287D000B1DA9;
+			remoteInfo = YMojiMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		028AE1C21F619110000B1DA9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				028AE1BE1F619110000B1DA9 /* YMojiKeyboard.appex in Embed App Extensions */,
+				028AE2CF1F63287D000B1DA9 /* YMojiMessage.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		021C3F5A1F5BEE1C0003825D /* YMoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		021C3F5D1F5BEE1C0003825D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		021C3F5F1F5BEE1C0003825D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		021C3F621F5BEE1C0003825D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		021C3F641F5BEE1C0003825D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		021C3F671F5BEE1C0003825D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		021C3F691F5BEE1C0003825D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0245F67E1F5C02E2007E37AB /* minion1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion1.png; path = YMoji/Resources/minion1.png; sourceTree = "<group>"; };
+		0245F67F1F5C02E2007E37AB /* minion2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion2.png; path = YMoji/Resources/minion2.png; sourceTree = "<group>"; };
+		0245F6801F5C02E2007E37AB /* minion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion3.png; path = YMoji/Resources/minion3.png; sourceTree = "<group>"; };
+		0245F6811F5C02E2007E37AB /* minion4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion4.png; path = YMoji/Resources/minion4.png; sourceTree = "<group>"; };
+		0245F6821F5C02E2007E37AB /* minion5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minion5.gif; path = YMoji/Resources/minion5.gif; sourceTree = "<group>"; };
+		0245F6831F5C02E2007E37AB /* minion6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion6.png; path = YMoji/Resources/minion6.png; sourceTree = "<group>"; };
+		0245F6841F5C02E2007E37AB /* minion7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion7.png; path = YMoji/Resources/minion7.png; sourceTree = "<group>"; };
+		0245F6851F5C02E2007E37AB /* minion8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion8.png; path = YMoji/Resources/minion8.png; sourceTree = "<group>"; };
+		0245F6861F5C02E2007E37AB /* minion9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minion9.gif; path = YMoji/Resources/minion9.gif; sourceTree = "<group>"; };
+		0245F6871F5C02E2007E37AB /* minion10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion10.png; path = YMoji/Resources/minion10.png; sourceTree = "<group>"; };
+		0245F6891F5C02E2007E37AB /* minion12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion12.png; path = YMoji/Resources/minion12.png; sourceTree = "<group>"; };
+		0245F68A1F5C02E2007E37AB /* minion13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion13.png; path = YMoji/Resources/minion13.png; sourceTree = "<group>"; };
+		0245F68B1F5C02E2007E37AB /* minion14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minion14.gif; path = YMoji/Resources/minion14.gif; sourceTree = "<group>"; };
+		0245F68C1F5C02E2007E37AB /* minion15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion15.png; path = YMoji/Resources/minion15.png; sourceTree = "<group>"; };
+		0245F68D1F5C02E2007E37AB /* minion16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion16.png; path = YMoji/Resources/minion16.png; sourceTree = "<group>"; };
+		0245F68E1F5C02E2007E37AB /* minion17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion17.png; path = YMoji/Resources/minion17.png; sourceTree = "<group>"; };
+		0245F6901F5C02E2007E37AB /* minion11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion11.png; path = YMoji/Resources/minion11.png; sourceTree = "<group>"; };
+		0245F6911F5C02E2007E37AB /* minion0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minion0.png; path = YMoji/Resources/minion0.png; sourceTree = "<group>"; };
+		0245F6A91F5C0788007E37AB /* ic_recent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_recent.png; path = YMoji/Resources/ic_recent.png; sourceTree = "<group>"; };
+		0245F6AA1F5C0788007E37AB /* ic_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_settings.png; path = YMoji/Resources/ic_settings.png; sourceTree = "<group>"; };
+		0245F6AE1F5C1269007E37AB /* YMojiCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YMojiCollectionViewLayout.swift; path = Classes/YMojiCollectionViewLayout.swift; sourceTree = "<group>"; };
+		0245F6B01F5C135E007E37AB /* YMojiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YMojiCollectionViewCell.swift; path = Classes/YMojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		0245F6B11F5C135E007E37AB /* YMojiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YMojiCollectionViewCell.xib; path = Classes/YMojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		0245F6B41F5C13F1007E37AB /* ic_play_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_play_video.png; path = YMoji/Resources/ic_play_video.png; sourceTree = "<group>"; };
+		0245F6B61F5C1AB1007E37AB /* YMoji-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMoji-Bridging-Header.h"; sourceTree = "<group>"; };
+		0245F6B71F5C1AB1007E37AB /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "Classes/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		0245F6B81F5C1AB1007E37AB /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "Classes/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		0245F6BA1F5C2021007E37AB /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentViewController.swift; path = ViewControllers/RecentViewController.swift; sourceTree = "<group>"; };
+		0245F6BC1F5C20ED007E37AB /* ic_close_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_close_blue.png; path = YMoji/Resources/ic_close_blue.png; sourceTree = "<group>"; };
+		0245F6BD1F5C20ED007E37AB /* ic_close_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_close_white.png; path = YMoji/Resources/ic_close_white.png; sourceTree = "<group>"; };
+		0245F6C01F5C210F007E37AB /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareViewController.swift; path = ViewControllers/ShareViewController.swift; sourceTree = "<group>"; };
+		0245F6C21F5C2122007E37AB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ViewControllers/SettingsViewController.swift; sourceTree = "<group>"; };
+		028AE1A71F6183B0000B1DA9 /* ic_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_contact.png; path = YMoji/Resources/ic_contact.png; sourceTree = "<group>"; };
+		028AE1A81F6183B1000B1DA9 /* ic_follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_follow.png; path = YMoji/Resources/ic_follow.png; sourceTree = "<group>"; };
+		028AE1A91F6183B1000B1DA9 /* ic_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_phone.png; path = YMoji/Resources/ic_phone.png; sourceTree = "<group>"; };
+		028AE1AA1F6183B1000B1DA9 /* ic_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_privacy.png; path = YMoji/Resources/ic_privacy.png; sourceTree = "<group>"; };
+		028AE1AB1F6183B1000B1DA9 /* ic_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_rate.png; path = YMoji/Resources/ic_rate.png; sourceTree = "<group>"; };
+		028AE1AC1F6183B1000B1DA9 /* ic_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_share@2x.png"; path = "YMoji/Resources/ic_share@2x.png"; sourceTree = "<group>"; };
+		028AE1B71F619110000B1DA9 /* YMojiKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YMojiKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		028AE1B91F619110000B1DA9 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		028AE1BB1F619110000B1DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028AE1C41F61991C000B1DA9 /* 123orReturnKey_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 123orReturnKey_normal.png; path = YMoji/Resources/Keyboard/123orReturnKey_normal.png; sourceTree = "<group>"; };
+		028AE1C51F61991C000B1DA9 /* 123orReturnKey_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 123orReturnKey_pressed.png; path = YMoji/Resources/Keyboard/123orReturnKey_pressed.png; sourceTree = "<group>"; };
+		028AE1C61F61991C000B1DA9 /* Back_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_normal.png; path = YMoji/Resources/Keyboard/Back_normal.png; sourceTree = "<group>"; };
+		028AE1C71F61991C000B1DA9 /* Back_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_pressed.png; path = YMoji/Resources/Keyboard/Back_pressed.png; sourceTree = "<group>"; };
+		028AE1C81F61991C000B1DA9 /* Boards_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Boards_normal.png; path = YMoji/Resources/Keyboard/Boards_normal.png; sourceTree = "<group>"; };
+		028AE1C91F61991C000B1DA9 /* Boards_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Boards_pressed.png; path = YMoji/Resources/Keyboard/Boards_pressed.png; sourceTree = "<group>"; };
+		028AE1CA1F61991C000B1DA9 /* BoardsTableCellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BoardsTableCellBackground.png; path = YMoji/Resources/Keyboard/BoardsTableCellBackground.png; sourceTree = "<group>"; };
+		028AE1CB1F61991C000B1DA9 /* DeleteKey_normal_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DeleteKey_normal_Land.png; path = YMoji/Resources/Keyboard/DeleteKey_normal_Land.png; sourceTree = "<group>"; };
+		028AE1CC1F61991C000B1DA9 /* DeleteKey_normal_Port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DeleteKey_normal_Port.png; path = YMoji/Resources/Keyboard/DeleteKey_normal_Port.png; sourceTree = "<group>"; };
+		028AE1CD1F61991C000B1DA9 /* DeleteKey_pressed_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DeleteKey_pressed_Land.png; path = YMoji/Resources/Keyboard/DeleteKey_pressed_Land.png; sourceTree = "<group>"; };
+		028AE1CE1F61991C000B1DA9 /* DeleteKey_pressed_Port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DeleteKey_pressed_Port.png; path = YMoji/Resources/Keyboard/DeleteKey_pressed_Port.png; sourceTree = "<group>"; };
+		028AE1CF1F61991C000B1DA9 /* DeletePin_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DeletePin_normal.png; path = YMoji/Resources/Keyboard/DeletePin_normal.png; sourceTree = "<group>"; };
+		028AE1D01F61991C000B1DA9 /* DeletePin_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DeletePin_pressed.png; path = YMoji/Resources/Keyboard/DeletePin_pressed.png; sourceTree = "<group>"; };
+		028AE1D11F61991C000B1DA9 /* divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = divider.png; path = YMoji/Resources/Keyboard/divider.png; sourceTree = "<group>"; };
+		028AE1D21F61991C000B1DA9 /* divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "divider@2x.png"; path = "YMoji/Resources/Keyboard/divider@2x.png"; sourceTree = "<group>"; };
+		028AE1D31F61991C000B1DA9 /* divider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "divider@3x.png"; path = "YMoji/Resources/Keyboard/divider@3x.png"; sourceTree = "<group>"; };
+		028AE1D41F61991C000B1DA9 /* DoubleShiftKey_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DoubleShiftKey_Land.png; path = YMoji/Resources/Keyboard/DoubleShiftKey_Land.png; sourceTree = "<group>"; };
+		028AE1D51F61991C000B1DA9 /* DoubleShiftKey_Port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DoubleShiftKey_Port.png; path = YMoji/Resources/Keyboard/DoubleShiftKey_Port.png; sourceTree = "<group>"; };
+		028AE1D61F61991C000B1DA9 /* ic_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_camera.png; path = YMoji/Resources/Keyboard/ic_camera.png; sourceTree = "<group>"; };
+		028AE1D71F61991C000B1DA9 /* ic_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_camera@2x.png"; path = "YMoji/Resources/Keyboard/ic_camera@2x.png"; sourceTree = "<group>"; };
+		028AE1D81F61991C000B1DA9 /* ic_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_camera@3x.png"; path = "YMoji/Resources/Keyboard/ic_camera@3x.png"; sourceTree = "<group>"; };
+		028AE1D91F61991C000B1DA9 /* ic_mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_mic.png; path = YMoji/Resources/Keyboard/ic_mic.png; sourceTree = "<group>"; };
+		028AE1DA1F61991C000B1DA9 /* ic_mic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_mic@2x.png"; path = "YMoji/Resources/Keyboard/ic_mic@2x.png"; sourceTree = "<group>"; };
+		028AE1DB1F61991C000B1DA9 /* ic_mic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_mic@3x.png"; path = "YMoji/Resources/Keyboard/ic_mic@3x.png"; sourceTree = "<group>"; };
+		028AE1DC1F61991C000B1DA9 /* ic_upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_upload.png; path = YMoji/Resources/Keyboard/ic_upload.png; sourceTree = "<group>"; };
+		028AE1DD1F61991C000B1DA9 /* ic_upload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_upload@2x.png"; path = "YMoji/Resources/Keyboard/ic_upload@2x.png"; sourceTree = "<group>"; };
+		028AE1DE1F61991C000B1DA9 /* ic_upload@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_upload@3x.png"; path = "YMoji/Resources/Keyboard/ic_upload@3x.png"; sourceTree = "<group>"; };
+		028AE1DF1F61991C000B1DA9 /* Key_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Key_normal.png; path = YMoji/Resources/Keyboard/Key_normal.png; sourceTree = "<group>"; };
+		028AE1E01F61991C000B1DA9 /* Key_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Key_pressed.png; path = YMoji/Resources/Keyboard/Key_pressed.png; sourceTree = "<group>"; };
+		028AE1E11F61991C000B1DA9 /* Keyboard_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Keyboard_normal.png; path = YMoji/Resources/Keyboard/Keyboard_normal.png; sourceTree = "<group>"; };
+		028AE1E21F61991C000B1DA9 /* Keyboard_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Keyboard_pressed.png; path = YMoji/Resources/Keyboard/Keyboard_pressed.png; sourceTree = "<group>"; };
+		028AE1E31F61991C000B1DA9 /* Likes_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Likes_normal.png; path = YMoji/Resources/Keyboard/Likes_normal.png; sourceTree = "<group>"; };
+		028AE1E41F61991C000B1DA9 /* Likes_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Likes_pressed.png; path = YMoji/Resources/Keyboard/Likes_pressed.png; sourceTree = "<group>"; };
+		028AE1E51F61991C000B1DA9 /* OtherKeyboard_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OtherKeyboard_dark.png; path = YMoji/Resources/Keyboard/OtherKeyboard_dark.png; sourceTree = "<group>"; };
+		028AE1E61F61991C000B1DA9 /* OtherKeyboard_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OtherKeyboard_normal.png; path = YMoji/Resources/Keyboard/OtherKeyboard_normal.png; sourceTree = "<group>"; };
+		028AE1E71F61991C000B1DA9 /* OtherKeyboard_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OtherKeyboard_pressed.png; path = YMoji/Resources/Keyboard/OtherKeyboard_pressed.png; sourceTree = "<group>"; };
+		028AE1E81F61991C000B1DA9 /* PlaceHolderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlaceHolderImage.png; path = YMoji/Resources/Keyboard/PlaceHolderImage.png; sourceTree = "<group>"; };
+		028AE1E91F61991C000B1DA9 /* Recent_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Recent_normal.png; path = YMoji/Resources/Keyboard/Recent_normal.png; sourceTree = "<group>"; };
+		028AE1EA1F61991C000B1DA9 /* Recent_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Recent_pressed.png; path = YMoji/Resources/Keyboard/Recent_pressed.png; sourceTree = "<group>"; };
+		028AE1EB1F61991C000B1DA9 /* Share_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Share_normal.png; path = YMoji/Resources/Keyboard/Share_normal.png; sourceTree = "<group>"; };
+		028AE1EC1F61991C000B1DA9 /* Share_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Share_pressed.png; path = YMoji/Resources/Keyboard/Share_pressed.png; sourceTree = "<group>"; };
+		028AE1ED1F61991C000B1DA9 /* ShiftKey_normal_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShiftKey_normal_Land.png; path = YMoji/Resources/Keyboard/ShiftKey_normal_Land.png; sourceTree = "<group>"; };
+		028AE1EE1F61991C000B1DA9 /* ShiftKey_normal_Port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShiftKey_normal_Port.png; path = YMoji/Resources/Keyboard/ShiftKey_normal_Port.png; sourceTree = "<group>"; };
+		028AE1EF1F61991C000B1DA9 /* ShiftKey_pressed_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShiftKey_pressed_Land.png; path = YMoji/Resources/Keyboard/ShiftKey_pressed_Land.png; sourceTree = "<group>"; };
+		028AE1F01F61991C000B1DA9 /* ShiftKey_pressed_Port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShiftKey_pressed_Port.png; path = YMoji/Resources/Keyboard/ShiftKey_pressed_Port.png; sourceTree = "<group>"; };
+		028AE1F11F61991C000B1DA9 /* SpaceKey_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpaceKey_normal.png; path = YMoji/Resources/Keyboard/SpaceKey_normal.png; sourceTree = "<group>"; };
+		028AE1F21F61991C000B1DA9 /* SpaceKey_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpaceKey_pressed.png; path = YMoji/Resources/Keyboard/SpaceKey_pressed.png; sourceTree = "<group>"; };
+		028AE1F31F61991C000B1DA9 /* ymoji_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ymoji_highlight.png; path = YMoji/Resources/Keyboard/ymoji_highlight.png; sourceTree = "<group>"; };
+		028AE1F41F61991C000B1DA9 /* ymoji_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ymoji_normal.png; path = YMoji/Resources/Keyboard/ymoji_normal.png; sourceTree = "<group>"; };
+		028AE29A1F631C60000B1DA9 /* YMojiKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMojiKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		028AE29B1F631C61000B1DA9 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "Classes/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		028AE29C1F631C61000B1DA9 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "Classes/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		028AE2B61F631E6D000B1DA9 /* YMojiKeyboardCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YMojiKeyboardCollectionViewLayout.swift; path = Classes/YMojiKeyboardCollectionViewLayout.swift; sourceTree = "<group>"; };
+		028AE2B81F632029000B1DA9 /* keyPopImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keyPopImage.h; path = Classes/keyPopImage.h; sourceTree = "<group>"; };
+		028AE2B91F632029000B1DA9 /* keyPopImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = keyPopImage.m; path = Classes/keyPopImage.m; sourceTree = "<group>"; };
+		028AE2C01F63287D000B1DA9 /* YMojiMessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YMojiMessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		028AE2C21F63287D000B1DA9 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		028AE2C51F63287D000B1DA9 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		028AE2C81F63287D000B1DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		028AE2CA1F63287D000B1DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028AE2CC1F63287D000B1DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028AE2EA1F632A0F000B1DA9 /* YMojiMessage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMojiMessage-Bridging-Header.h"; sourceTree = "<group>"; };
+		028AE2EB1F632A10000B1DA9 /* SingleHandGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleHandGestureRecognizer.h; path = StickerView/SingleHandGestureRecognizer.h; sourceTree = "<group>"; };
+		028AE2EC1F632A10000B1DA9 /* SingleHandGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleHandGestureRecognizer.m; path = StickerView/SingleHandGestureRecognizer.m; sourceTree = "<group>"; };
+		028AE2ED1F632A10000B1DA9 /* StickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = StickerView.bundle; path = StickerView/StickerView.bundle; sourceTree = "<group>"; };
+		028AE2EE1F632A10000B1DA9 /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickerView.h; path = StickerView/StickerView.h; sourceTree = "<group>"; };
+		028AE2EF1F632A10000B1DA9 /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickerView.m; path = StickerView/StickerView.m; sourceTree = "<group>"; };
+		028AE2F41F632A86000B1DA9 /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		028AE2F51F632A86000B1DA9 /* StickerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		028AE2F81F632D28000B1DA9 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "StickerView/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		028AE2F91F632D28000B1DA9 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "StickerView/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		1507A93DDE20C5251882A6FB /* Pods-YMoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMoji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMoji/Pods-YMoji.debug.xcconfig"; sourceTree = "<group>"; };
+		1EAF6D51BCBD9D39505508E9 /* Pods-YMoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMoji/Pods-YMoji.release.xcconfig"; sourceTree = "<group>"; };
+		639A212768FBE43B5C404276 /* Pods_YMojiKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMojiKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C439413F39C53CB9AF3F70E /* Pods-YMojiMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMojiMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMojiMessage/Pods-YMojiMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1445B150B6F772E77CA97C /* Pods_YMojiMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMojiMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0F99CEDAB8839C6C9B6804 /* Pods-YMojiKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMojiKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMojiKeyboard/Pods-YMojiKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		BEBC8CBF43830C4DABE6CF5C /* Pods-YMojiMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMojiMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMojiMessage/Pods-YMojiMessage.release.xcconfig"; sourceTree = "<group>"; };
+		F344F937EAB5B171CA243F34 /* Pods-YMojiKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMojiKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMojiKeyboard/Pods-YMojiKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		FF9263019936128358FC1021 /* Pods_YMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021C3F571F5BEE1C0003825D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952F44088CD244DD1F600F46 /* Pods_YMoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028AE1B41F619110000B1DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD2AA66B24DFF9533018A5C /* Pods_YMojiKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028AE2BD1F63287D000B1DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028AE2C31F63287D000B1DA9 /* Messages.framework in Frameworks */,
+				9C1278C9D7BEDB9E786B41AA /* Pods_YMojiMessage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021C3F511F5BEE1C0003825D = {
+			isa = PBXGroup;
+			children = (
+				0245F67D1F5C02CF007E37AB /* Resources */,
+				021C3F5C1F5BEE1C0003825D /* YMoji */,
+				028AE1B81F619110000B1DA9 /* YMojiKeyboard */,
+				028AE2C41F63287D000B1DA9 /* YMojiMessage */,
+				028AE2C11F63287D000B1DA9 /* Frameworks */,
+				021C3F5B1F5BEE1C0003825D /* Products */,
+				EC8027AA7E6B3ED47DC7894B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		021C3F5B1F5BEE1C0003825D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				021C3F5A1F5BEE1C0003825D /* YMoji.app */,
+				028AE1B71F619110000B1DA9 /* YMojiKeyboard.appex */,
+				028AE2C01F63287D000B1DA9 /* YMojiMessage.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		021C3F5C1F5BEE1C0003825D /* YMoji */ = {
+			isa = PBXGroup;
+			children = (
+				0245F6AD1F5C1228007E37AB /* Classes */,
+				0245F6A81F5C033E007E37AB /* ViewControllers */,
+				021C3F5D1F5BEE1C0003825D /* AppDelegate.swift */,
+				021C3F5F1F5BEE1C0003825D /* ViewController.swift */,
+				021C3F611F5BEE1C0003825D /* Main.storyboard */,
+				021C3F641F5BEE1C0003825D /* Assets.xcassets */,
+				021C3F661F5BEE1C0003825D /* LaunchScreen.storyboard */,
+				021C3F691F5BEE1C0003825D /* Info.plist */,
+			);
+			path = YMoji;
+			sourceTree = "<group>";
+		};
+		0245F67D1F5C02CF007E37AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				028AE1C31F61990E000B1DA9 /* Keyboard */,
+				028AE1A71F6183B0000B1DA9 /* ic_contact.png */,
+				028AE1A81F6183B1000B1DA9 /* ic_follow.png */,
+				028AE1A91F6183B1000B1DA9 /* ic_phone.png */,
+				028AE1AA1F6183B1000B1DA9 /* ic_privacy.png */,
+				028AE1AB1F6183B1000B1DA9 /* ic_rate.png */,
+				028AE1AC1F6183B1000B1DA9 /* ic_share@2x.png */,
+				0245F6BC1F5C20ED007E37AB /* ic_close_blue.png */,
+				0245F6BD1F5C20ED007E37AB /* ic_close_white.png */,
+				0245F6B41F5C13F1007E37AB /* ic_play_video.png */,
+				0245F6A91F5C0788007E37AB /* ic_recent.png */,
+				0245F6AA1F5C0788007E37AB /* ic_settings.png */,
+				0245F67E1F5C02E2007E37AB /* minion1.png */,
+				0245F67F1F5C02E2007E37AB /* minion2.png */,
+				0245F6801F5C02E2007E37AB /* minion3.png */,
+				0245F6811F5C02E2007E37AB /* minion4.png */,
+				0245F6821F5C02E2007E37AB /* minion5.gif */,
+				0245F6831F5C02E2007E37AB /* minion6.png */,
+				0245F6841F5C02E2007E37AB /* minion7.png */,
+				0245F6851F5C02E2007E37AB /* minion8.png */,
+				0245F6861F5C02E2007E37AB /* minion9.gif */,
+				0245F6871F5C02E2007E37AB /* minion10.png */,
+				0245F6891F5C02E2007E37AB /* minion12.png */,
+				0245F68A1F5C02E2007E37AB /* minion13.png */,
+				0245F68B1F5C02E2007E37AB /* minion14.gif */,
+				0245F68C1F5C02E2007E37AB /* minion15.png */,
+				0245F68D1F5C02E2007E37AB /* minion16.png */,
+				0245F68E1F5C02E2007E37AB /* minion17.png */,
+				0245F6901F5C02E2007E37AB /* minion11.png */,
+				0245F6911F5C02E2007E37AB /* minion0.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0245F6A81F5C033E007E37AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0245F6BA1F5C2021007E37AB /* RecentViewController.swift */,
+				0245F6C01F5C210F007E37AB /* ShareViewController.swift */,
+				0245F6C21F5C2122007E37AB /* SettingsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0245F6AD1F5C1228007E37AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0245F6B71F5C1AB1007E37AB /* UIImage+animatedGIF.h */,
+				0245F6B81F5C1AB1007E37AB /* UIImage+animatedGIF.m */,
+				0245F6AE1F5C1269007E37AB /* YMojiCollectionViewLayout.swift */,
+				0245F6B01F5C135E007E37AB /* YMojiCollectionViewCell.swift */,
+				0245F6B11F5C135E007E37AB /* YMojiCollectionViewCell.xib */,
+				0245F6B61F5C1AB1007E37AB /* YMoji-Bridging-Header.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		028AE1B81F619110000B1DA9 /* YMojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				028AE2991F631C56000B1DA9 /* Classes */,
+				028AE1B91F619110000B1DA9 /* KeyboardViewController.swift */,
+				028AE1BB1F619110000B1DA9 /* Info.plist */,
+			);
+			path = YMojiKeyboard;
+			sourceTree = "<group>";
+		};
+		028AE1C31F61990E000B1DA9 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				028AE1C41F61991C000B1DA9 /* 123orReturnKey_normal.png */,
+				028AE1C51F61991C000B1DA9 /* 123orReturnKey_pressed.png */,
+				028AE1C61F61991C000B1DA9 /* Back_normal.png */,
+				028AE1C71F61991C000B1DA9 /* Back_pressed.png */,
+				028AE1C81F61991C000B1DA9 /* Boards_normal.png */,
+				028AE1C91F61991C000B1DA9 /* Boards_pressed.png */,
+				028AE1CA1F61991C000B1DA9 /* BoardsTableCellBackground.png */,
+				028AE1CB1F61991C000B1DA9 /* DeleteKey_normal_Land.png */,
+				028AE1CC1F61991C000B1DA9 /* DeleteKey_normal_Port.png */,
+				028AE1CD1F61991C000B1DA9 /* DeleteKey_pressed_Land.png */,
+				028AE1CE1F61991C000B1DA9 /* DeleteKey_pressed_Port.png */,
+				028AE1CF1F61991C000B1DA9 /* DeletePin_normal.png */,
+				028AE1D01F61991C000B1DA9 /* DeletePin_pressed.png */,
+				028AE1D11F61991C000B1DA9 /* divider.png */,
+				028AE1D21F61991C000B1DA9 /* divider@2x.png */,
+				028AE1D31F61991C000B1DA9 /* divider@3x.png */,
+				028AE1D41F61991C000B1DA9 /* DoubleShiftKey_Land.png */,
+				028AE1D51F61991C000B1DA9 /* DoubleShiftKey_Port.png */,
+				028AE1D61F61991C000B1DA9 /* ic_camera.png */,
+				028AE1D71F61991C000B1DA9 /* ic_camera@2x.png */,
+				028AE1D81F61991C000B1DA9 /* ic_camera@3x.png */,
+				028AE1D91F61991C000B1DA9 /* ic_mic.png */,
+				028AE1DA1F61991C000B1DA9 /* ic_mic@2x.png */,
+				028AE1DB1F61991C000B1DA9 /* ic_mic@3x.png */,
+				028AE1DC1F61991C000B1DA9 /* ic_upload.png */,
+				028AE1DD1F61991C000B1DA9 /* ic_upload@2x.png */,
+				028AE1DE1F61991C000B1DA9 /* ic_upload@3x.png */,
+				028AE1DF1F61991C000B1DA9 /* Key_normal.png */,
+				028AE1E01F61991C000B1DA9 /* Key_pressed.png */,
+				028AE1E11F61991C000B1DA9 /* Keyboard_normal.png */,
+				028AE1E21F61991C000B1DA9 /* Keyboard_pressed.png */,
+				028AE1E31F61991C000B1DA9 /* Likes_normal.png */,
+				028AE1E41F61991C000B1DA9 /* Likes_pressed.png */,
+				028AE1E51F61991C000B1DA9 /* OtherKeyboard_dark.png */,
+				028AE1E61F61991C000B1DA9 /* OtherKeyboard_normal.png */,
+				028AE1E71F61991C000B1DA9 /* OtherKeyboard_pressed.png */,
+				028AE1E81F61991C000B1DA9 /* PlaceHolderImage.png */,
+				028AE1E91F61991C000B1DA9 /* Recent_normal.png */,
+				028AE1EA1F61991C000B1DA9 /* Recent_pressed.png */,
+				028AE1EB1F61991C000B1DA9 /* Share_normal.png */,
+				028AE1EC1F61991C000B1DA9 /* Share_pressed.png */,
+				028AE1ED1F61991C000B1DA9 /* ShiftKey_normal_Land.png */,
+				028AE1EE1F61991C000B1DA9 /* ShiftKey_normal_Port.png */,
+				028AE1EF1F61991C000B1DA9 /* ShiftKey_pressed_Land.png */,
+				028AE1F01F61991C000B1DA9 /* ShiftKey_pressed_Port.png */,
+				028AE1F11F61991C000B1DA9 /* SpaceKey_normal.png */,
+				028AE1F21F61991C000B1DA9 /* SpaceKey_pressed.png */,
+				028AE1F31F61991C000B1DA9 /* ymoji_highlight.png */,
+				028AE1F41F61991C000B1DA9 /* ymoji_normal.png */,
+			);
+			name = Keyboard;
+			sourceTree = "<group>";
+		};
+		028AE2991F631C56000B1DA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				028AE2B81F632029000B1DA9 /* keyPopImage.h */,
+				028AE2B91F632029000B1DA9 /* keyPopImage.m */,
+				028AE29B1F631C61000B1DA9 /* UIImage+animatedGIF.h */,
+				028AE29C1F631C61000B1DA9 /* UIImage+animatedGIF.m */,
+				028AE29A1F631C60000B1DA9 /* YMojiKeyboard-Bridging-Header.h */,
+				028AE2B61F631E6D000B1DA9 /* YMojiKeyboardCollectionViewLayout.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		028AE2C11F63287D000B1DA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				028AE2C21F63287D000B1DA9 /* Messages.framework */,
+				FF9263019936128358FC1021 /* Pods_YMoji.framework */,
+				639A212768FBE43B5C404276 /* Pods_YMojiKeyboard.framework */,
+				9D1445B150B6F772E77CA97C /* Pods_YMojiMessage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		028AE2C41F63287D000B1DA9 /* YMojiMessage */ = {
+			isa = PBXGroup;
+			children = (
+				028AE2E91F632A01000B1DA9 /* StickerView */,
+				028AE2C51F63287D000B1DA9 /* MessagesViewController.swift */,
+				028AE2C71F63287D000B1DA9 /* MainInterface.storyboard */,
+				028AE2CA1F63287D000B1DA9 /* Assets.xcassets */,
+				028AE2CC1F63287D000B1DA9 /* Info.plist */,
+				028AE2F41F632A86000B1DA9 /* StickerCollectionViewCell.swift */,
+				028AE2F51F632A86000B1DA9 /* StickerCollectionViewCell.xib */,
+			);
+			path = YMojiMessage;
+			sourceTree = "<group>";
+		};
+		028AE2E91F632A01000B1DA9 /* StickerView */ = {
+			isa = PBXGroup;
+			children = (
+				028AE2F81F632D28000B1DA9 /* UIImage+animatedGIF.h */,
+				028AE2F91F632D28000B1DA9 /* UIImage+animatedGIF.m */,
+				028AE2EB1F632A10000B1DA9 /* SingleHandGestureRecognizer.h */,
+				028AE2EC1F632A10000B1DA9 /* SingleHandGestureRecognizer.m */,
+				028AE2ED1F632A10000B1DA9 /* StickerView.bundle */,
+				028AE2EE1F632A10000B1DA9 /* StickerView.h */,
+				028AE2EF1F632A10000B1DA9 /* StickerView.m */,
+				028AE2EA1F632A0F000B1DA9 /* YMojiMessage-Bridging-Header.h */,
+			);
+			name = StickerView;
+			sourceTree = "<group>";
+		};
+		EC8027AA7E6B3ED47DC7894B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1507A93DDE20C5251882A6FB /* Pods-YMoji.debug.xcconfig */,
+				1EAF6D51BCBD9D39505508E9 /* Pods-YMoji.release.xcconfig */,
+				BA0F99CEDAB8839C6C9B6804 /* Pods-YMojiKeyboard.debug.xcconfig */,
+				F344F937EAB5B171CA243F34 /* Pods-YMojiKeyboard.release.xcconfig */,
+				7C439413F39C53CB9AF3F70E /* Pods-YMojiMessage.debug.xcconfig */,
+				BEBC8CBF43830C4DABE6CF5C /* Pods-YMojiMessage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021C3F591F5BEE1C0003825D /* YMoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021C3F6C1F5BEE1C0003825D /* Build configuration list for PBXNativeTarget "YMoji" */;
+			buildPhases = (
+				C58E9C949E170FD89F7EF306 /* [CP] Check Pods Manifest.lock */,
+				021C3F561F5BEE1C0003825D /* Sources */,
+				021C3F571F5BEE1C0003825D /* Frameworks */,
+				021C3F581F5BEE1C0003825D /* Resources */,
+				028AE1C21F619110000B1DA9 /* Embed App Extensions */,
+				A8C79E308A9100FA3C1E0477 /* [CP] Embed Pods Frameworks */,
+				737A1233542069D32C0E9518 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028AE1BD1F619110000B1DA9 /* PBXTargetDependency */,
+				028AE2CE1F63287D000B1DA9 /* PBXTargetDependency */,
+			);
+			name = YMoji;
+			productName = YMoji;
+			productReference = 021C3F5A1F5BEE1C0003825D /* YMoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		028AE1B61F619110000B1DA9 /* YMojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028AE1BF1F619110000B1DA9 /* Build configuration list for PBXNativeTarget "YMojiKeyboard" */;
+			buildPhases = (
+				CA9BE07B50CF18380E033F3E /* [CP] Check Pods Manifest.lock */,
+				028AE1B31F619110000B1DA9 /* Sources */,
+				028AE1B41F619110000B1DA9 /* Frameworks */,
+				028AE1B51F619110000B1DA9 /* Resources */,
+				1224DDFA50C7554E4E975A1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMojiKeyboard;
+			productName = YMojiKeyboard;
+			productReference = 028AE1B71F619110000B1DA9 /* YMojiKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		028AE2BF1F63287D000B1DA9 /* YMojiMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028AE2D01F63287D000B1DA9 /* Build configuration list for PBXNativeTarget "YMojiMessage" */;
+			buildPhases = (
+				EDA9EFCD959683FE555B14B7 /* [CP] Check Pods Manifest.lock */,
+				028AE2BC1F63287D000B1DA9 /* Sources */,
+				028AE2BD1F63287D000B1DA9 /* Frameworks */,
+				028AE2BE1F63287D000B1DA9 /* Resources */,
+				400FB78A922678607B921A6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMojiMessage;
+			productName = YMojiMessage;
+			productReference = 028AE2C01F63287D000B1DA9 /* YMojiMessage.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		021C3F521F5BEE1C0003825D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = C;
+				TargetAttributes = {
+					021C3F591F5BEE1C0003825D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PZGE2RV3T8;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					028AE1B61F619110000B1DA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PZGE2RV3T8;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					028AE2BF1F63287D000B1DA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PZGE2RV3T8;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 021C3F551F5BEE1C0003825D /* Build configuration list for PBXProject "YMoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 021C3F511F5BEE1C0003825D;
+			productRefGroup = 021C3F5B1F5BEE1C0003825D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				021C3F591F5BEE1C0003825D /* YMoji */,
+				028AE1B61F619110000B1DA9 /* YMojiKeyboard */,
+				028AE2BF1F63287D000B1DA9 /* YMojiMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021C3F581F5BEE1C0003825D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028AE1AF1F6183B1000B1DA9 /* ic_phone.png in Resources */,
+				0245F6991F5C02E2007E37AB /* minion7.png in Resources */,
+				0245F6A21F5C02E2007E37AB /* minion16.png in Resources */,
+				0245F69C1F5C02E2007E37AB /* minion10.png in Resources */,
+				0245F6951F5C02E2007E37AB /* minion3.png in Resources */,
+				0245F6941F5C02E2007E37AB /* minion2.png in Resources */,
+				0245F69A1F5C02E2007E37AB /* minion8.png in Resources */,
+				0245F6961F5C02E2007E37AB /* minion4.png in Resources */,
+				0245F6A61F5C02E2007E37AB /* minion0.png in Resources */,
+				0245F69F1F5C02E2007E37AB /* minion13.png in Resources */,
+				0245F6AC1F5C0788007E37AB /* ic_settings.png in Resources */,
+				0245F6B31F5C135E007E37AB /* YMojiCollectionViewCell.xib in Resources */,
+				0245F6BF1F5C20ED007E37AB /* ic_close_white.png in Resources */,
+				028AE1AD1F6183B1000B1DA9 /* ic_contact.png in Resources */,
+				028AE1B11F6183B1000B1DA9 /* ic_rate.png in Resources */,
+				0245F6981F5C02E2007E37AB /* minion6.png in Resources */,
+				0245F69B1F5C02E2007E37AB /* minion9.gif in Resources */,
+				028AE1B21F6183B1000B1DA9 /* ic_share@2x.png in Resources */,
+				0245F6A31F5C02E2007E37AB /* minion17.png in Resources */,
+				0245F6B51F5C13F1007E37AB /* ic_play_video.png in Resources */,
+				0245F6A01F5C02E2007E37AB /* minion14.gif in Resources */,
+				0245F6A11F5C02E2007E37AB /* minion15.png in Resources */,
+				021C3F681F5BEE1C0003825D /* LaunchScreen.storyboard in Resources */,
+				021C3F651F5BEE1C0003825D /* Assets.xcassets in Resources */,
+				0245F69E1F5C02E2007E37AB /* minion12.png in Resources */,
+				0245F6BE1F5C20ED007E37AB /* ic_close_blue.png in Resources */,
+				0245F6A51F5C02E2007E37AB /* minion11.png in Resources */,
+				0245F6931F5C02E2007E37AB /* minion1.png in Resources */,
+				0245F6971F5C02E2007E37AB /* minion5.gif in Resources */,
+				021C3F631F5BEE1C0003825D /* Main.storyboard in Resources */,
+				028AE1AE1F6183B1000B1DA9 /* ic_follow.png in Resources */,
+				028AE1B01F6183B1000B1DA9 /* ic_privacy.png in Resources */,
+				0245F6AB1F5C0788007E37AB /* ic_recent.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028AE1B51F619110000B1DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028AE2391F619931000B1DA9 /* ic_camera.png in Resources */,
+				028AE2291F619931000B1DA9 /* Back_normal.png in Resources */,
+				028AE23F1F619931000B1DA9 /* ic_upload.png in Resources */,
+				028AE2461F619931000B1DA9 /* Likes_normal.png in Resources */,
+				028AE24B1F619931000B1DA9 /* PlaceHolderImage.png in Resources */,
+				028AE2561F619931000B1DA9 /* ymoji_highlight.png in Resources */,
+				028AE2551F619931000B1DA9 /* SpaceKey_pressed.png in Resources */,
+				028AE2331F619931000B1DA9 /* DeletePin_pressed.png in Resources */,
+				028AE23C1F619931000B1DA9 /* ic_mic.png in Resources */,
+				028AE24C1F619931000B1DA9 /* Recent_normal.png in Resources */,
+				028AE22F1F619931000B1DA9 /* DeleteKey_normal_Port.png in Resources */,
+				028AE2A01F631C8D000B1DA9 /* YMojiCollectionViewCell.xib in Resources */,
+				028AE2421F619931000B1DA9 /* Key_normal.png in Resources */,
+				028AE2521F619931000B1DA9 /* ShiftKey_pressed_Land.png in Resources */,
+				028AE24D1F619931000B1DA9 /* Recent_pressed.png in Resources */,
+				028AE2B01F631D6B000B1DA9 /* minion16.png in Resources */,
+				028AE2A61F631D6B000B1DA9 /* minion6.png in Resources */,
+				028AE24F1F619931000B1DA9 /* Share_pressed.png in Resources */,
+				028AE2371F619931000B1DA9 /* DoubleShiftKey_Land.png in Resources */,
+				028AE2361F619931000B1DA9 /* divider@3x.png in Resources */,
+				028AE2571F619931000B1DA9 /* ymoji_normal.png in Resources */,
+				028AE2A21F631D6B000B1DA9 /* minion2.png in Resources */,
+				028AE2471F619931000B1DA9 /* Likes_pressed.png in Resources */,
+				028AE2301F619931000B1DA9 /* DeleteKey_pressed_Land.png in Resources */,
+				028AE2381F619931000B1DA9 /* DoubleShiftKey_Port.png in Resources */,
+				028AE2A51F631D6B000B1DA9 /* minion5.gif in Resources */,
+				028AE2B31F631D6B000B1DA9 /* minion11.png in Resources */,
+				028AE2B11F631D6B000B1DA9 /* minion17.png in Resources */,
+				028AE2411F619931000B1DA9 /* ic_upload@3x.png in Resources */,
+				028AE2A91F631D6B000B1DA9 /* minion9.gif in Resources */,
+				028AE22A1F619931000B1DA9 /* Back_pressed.png in Resources */,
+				028AE2341F619931000B1DA9 /* divider.png in Resources */,
+				028AE24A1F619931000B1DA9 /* OtherKeyboard_pressed.png in Resources */,
+				028AE22D1F619931000B1DA9 /* BoardsTableCellBackground.png in Resources */,
+				028AE2AE1F631D6B000B1DA9 /* minion14.gif in Resources */,
+				028AE2541F619931000B1DA9 /* SpaceKey_normal.png in Resources */,
+				028AE2321F619931000B1DA9 /* DeletePin_normal.png in Resources */,
+				028AE2491F619931000B1DA9 /* OtherKeyboard_normal.png in Resources */,
+				028AE23B1F619931000B1DA9 /* ic_camera@3x.png in Resources */,
+				028AE2481F619931000B1DA9 /* OtherKeyboard_dark.png in Resources */,
+				028AE2A41F631D6B000B1DA9 /* minion4.png in Resources */,
+				028AE2AC1F631D6B000B1DA9 /* minion12.png in Resources */,
+				028AE2BB1F6327C1000B1DA9 /* ic_play_video.png in Resources */,
+				028AE2531F619931000B1DA9 /* ShiftKey_pressed_Port.png in Resources */,
+				028AE2A11F631D6B000B1DA9 /* minion1.png in Resources */,
+				028AE2281F619931000B1DA9 /* 123orReturnKey_pressed.png in Resources */,
+				028AE2A71F631D6B000B1DA9 /* minion7.png in Resources */,
+				028AE23A1F619931000B1DA9 /* ic_camera@2x.png in Resources */,
+				028AE23D1F619931000B1DA9 /* ic_mic@2x.png in Resources */,
+				028AE22B1F619931000B1DA9 /* Boards_normal.png in Resources */,
+				028AE2441F619931000B1DA9 /* Keyboard_normal.png in Resources */,
+				028AE2511F619931000B1DA9 /* ShiftKey_normal_Port.png in Resources */,
+				028AE2261F619920000B1DA9 /* 123orReturnKey_normal.png in Resources */,
+				028AE2351F619931000B1DA9 /* divider@2x.png in Resources */,
+				028AE2AF1F631D6B000B1DA9 /* minion15.png in Resources */,
+				028AE2401F619931000B1DA9 /* ic_upload@2x.png in Resources */,
+				028AE2501F619931000B1DA9 /* ShiftKey_normal_Land.png in Resources */,
+				028AE2451F619931000B1DA9 /* Keyboard_pressed.png in Resources */,
+				028AE2AA1F631D6B000B1DA9 /* minion10.png in Resources */,
+				028AE2AD1F631D6B000B1DA9 /* minion13.png in Resources */,
+				028AE2311F619931000B1DA9 /* DeleteKey_pressed_Port.png in Resources */,
+				028AE2A31F631D6B000B1DA9 /* minion3.png in Resources */,
+				028AE22E1F619931000B1DA9 /* DeleteKey_normal_Land.png in Resources */,
+				028AE2A81F631D6B000B1DA9 /* minion8.png in Resources */,
+				028AE22C1F619931000B1DA9 /* Boards_pressed.png in Resources */,
+				028AE2431F619931000B1DA9 /* Key_pressed.png in Resources */,
+				028AE2B41F631D6B000B1DA9 /* minion0.png in Resources */,
+				028AE24E1F619931000B1DA9 /* Share_normal.png in Resources */,
+				028AE23E1F619931000B1DA9 /* ic_mic@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028AE2BE1F63287D000B1DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028AE2E51F6328BD000B1DA9 /* minion11.png in Resources */,
+				028AE2D31F6328BD000B1DA9 /* minion1.png in Resources */,
+				028AE2CB1F63287D000B1DA9 /* Assets.xcassets in Resources */,
+				028AE2C91F63287D000B1DA9 /* MainInterface.storyboard in Resources */,
+				028AE2E61F6328BD000B1DA9 /* minion0.png in Resources */,
+				028AE2E11F6328BD000B1DA9 /* minion15.png in Resources */,
+				028AE2DC1F6328BD000B1DA9 /* minion10.png in Resources */,
+				028AE2D61F6328BD000B1DA9 /* minion4.png in Resources */,
+				028AE2FB1F632FEA000B1DA9 /* YMojiCollectionViewCell.xib in Resources */,
+				028AE2DB1F6328BD000B1DA9 /* minion9.gif in Resources */,
+				028AE2DE1F6328BD000B1DA9 /* minion12.png in Resources */,
+				028AE2D41F6328BD000B1DA9 /* minion2.png in Resources */,
+				028AE2D51F6328BD000B1DA9 /* minion3.png in Resources */,
+				028AE2E31F6328BD000B1DA9 /* minion17.png in Resources */,
+				028AE2F71F632A86000B1DA9 /* StickerCollectionViewCell.xib in Resources */,
+				028AE2D91F6328BD000B1DA9 /* minion7.png in Resources */,
+				028AE2D71F6328BD000B1DA9 /* minion5.gif in Resources */,
+				028AE2DF1F6328BD000B1DA9 /* minion13.png in Resources */,
+				028AE2E81F6328CD000B1DA9 /* ic_play_video.png in Resources */,
+				028AE2D81F6328BD000B1DA9 /* minion6.png in Resources */,
+				028AE2E21F6328BD000B1DA9 /* minion16.png in Resources */,
+				028AE2F11F632A10000B1DA9 /* StickerView.bundle in Resources */,
+				028AE2DA1F6328BD000B1DA9 /* minion8.png in Resources */,
+				028AE2E01F6328BD000B1DA9 /* minion14.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1224DDFA50C7554E4E975A1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMojiKeyboard/Pods-YMojiKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		400FB78A922678607B921A6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMojiMessage/Pods-YMojiMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737A1233542069D32C0E9518 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMoji/Pods-YMoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C79E308A9100FA3C1E0477 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YMoji/Pods-YMoji-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Regift/Regift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMoji/Pods-YMoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58E9C949E170FD89F7EF306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YMoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9BE07B50CF18380E033F3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YMojiKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA9EFCD959683FE555B14B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YMojiMessage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021C3F561F5BEE1C0003825D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0245F6C11F5C210F007E37AB /* ShareViewController.swift in Sources */,
+				0245F6AF1F5C1269007E37AB /* YMojiCollectionViewLayout.swift in Sources */,
+				021C3F601F5BEE1C0003825D /* ViewController.swift in Sources */,
+				021C3F5E1F5BEE1C0003825D /* AppDelegate.swift in Sources */,
+				0245F6BB1F5C2021007E37AB /* RecentViewController.swift in Sources */,
+				0245F6B91F5C1AB1007E37AB /* UIImage+animatedGIF.m in Sources */,
+				0245F6B21F5C135E007E37AB /* YMojiCollectionViewCell.swift in Sources */,
+				0245F6C31F5C2122007E37AB /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028AE1B31F619110000B1DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028AE2B71F631E6D000B1DA9 /* YMojiKeyboardCollectionViewLayout.swift in Sources */,
+				028AE2BA1F632029000B1DA9 /* keyPopImage.m in Sources */,
+				028AE1BA1F619110000B1DA9 /* KeyboardViewController.swift in Sources */,
+				028AE29D1F631C61000B1DA9 /* UIImage+animatedGIF.m in Sources */,
+				028AE29F1F631C86000B1DA9 /* YMojiCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028AE2BC1F63287D000B1DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028AE2F01F632A10000B1DA9 /* SingleHandGestureRecognizer.m in Sources */,
+				028AE2FC1F632FEE000B1DA9 /* YMojiCollectionViewCell.swift in Sources */,
+				028AE2FA1F632D28000B1DA9 /* UIImage+animatedGIF.m in Sources */,
+				028AE2F21F632A10000B1DA9 /* StickerView.m in Sources */,
+				028AE2F61F632A86000B1DA9 /* StickerCollectionViewCell.swift in Sources */,
+				028AE2C61F63287D000B1DA9 /* MessagesViewController.swift in Sources */,
+				028AE2F31F632A4F000B1DA9 /* YMojiCollectionViewLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		028AE1BD1F619110000B1DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028AE1B61F619110000B1DA9 /* YMojiKeyboard */;
+			targetProxy = 028AE1BC1F619110000B1DA9 /* PBXContainerItemProxy */;
+		};
+		028AE2CE1F63287D000B1DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028AE2BF1F63287D000B1DA9 /* YMojiMessage */;
+			targetProxy = 028AE2CD1F63287D000B1DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		021C3F611F5BEE1C0003825D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				021C3F621F5BEE1C0003825D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		021C3F661F5BEE1C0003825D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				021C3F671F5BEE1C0003825D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		028AE2C71F63287D000B1DA9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028AE2C81F63287D000B1DA9 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		021C3F6A1F5BEE1C0003825D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		021C3F6B1F5BEE1C0003825D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		021C3F6D1F5BEE1C0003825D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1507A93DDE20C5251882A6FB /* Pods-YMoji.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PZGE2RV3T8;
+				INFOPLIST_FILE = YMoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c.YMoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YMoji/YMoji-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		021C3F6E1F5BEE1C0003825D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAF6D51BCBD9D39505508E9 /* Pods-YMoji.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PZGE2RV3T8;
+				INFOPLIST_FILE = YMoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c.YMoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YMoji/YMoji-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		028AE1C01F619110000B1DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0F99CEDAB8839C6C9B6804 /* Pods-YMojiKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PZGE2RV3T8;
+				INFOPLIST_FILE = YMojiKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c.YMoji.YMojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YMojiKeyboard/YMojiKeyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		028AE1C11F619110000B1DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F344F937EAB5B171CA243F34 /* Pods-YMojiKeyboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PZGE2RV3T8;
+				INFOPLIST_FILE = YMojiKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c.YMoji.YMojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YMojiKeyboard/YMojiKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		028AE2D11F63287D000B1DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C439413F39C53CB9AF3F70E /* Pods-YMojiMessage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PZGE2RV3T8;
+				INFOPLIST_FILE = YMojiMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c.YMoji.YMojiMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YMojiMessage/YMojiMessage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		028AE2D21F63287D000B1DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBC8CBF43830C4DABE6CF5C /* Pods-YMojiMessage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PZGE2RV3T8;
+				INFOPLIST_FILE = YMojiMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c.YMoji.YMojiMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YMojiMessage/YMojiMessage-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021C3F551F5BEE1C0003825D /* Build configuration list for PBXProject "YMoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021C3F6A1F5BEE1C0003825D /* Debug */,
+				021C3F6B1F5BEE1C0003825D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		021C3F6C1F5BEE1C0003825D /* Build configuration list for PBXNativeTarget "YMoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021C3F6D1F5BEE1C0003825D /* Debug */,
+				021C3F6E1F5BEE1C0003825D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028AE1BF1F619110000B1DA9 /* Build configuration list for PBXNativeTarget "YMojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028AE1C01F619110000B1DA9 /* Debug */,
+				028AE1C11F619110000B1DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028AE2D01F63287D000B1DA9 /* Build configuration list for PBXNativeTarget "YMojiMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028AE2D11F63287D000B1DA9 /* Debug */,
+				028AE2D21F63287D000B1DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 021C3F521F5BEE1C0003825D /* Project object */;
+}
